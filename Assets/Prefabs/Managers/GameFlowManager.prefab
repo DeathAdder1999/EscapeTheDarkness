@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1344475182650096}
+  m_IsPrefabParent: 1
+--- !u!1 &1344475182650096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4696228940915860}
+  - component: {fileID: 114822822760494872}
+  m_Layer: 0
+  m_Name: GameFlowManager
+  m_TagString: GameFlowManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4696228940915860
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1344475182650096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114822822760494872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1344475182650096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468908fed9ab87e4f9056d7b264eeb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hairStyles:
+  - {fileID: 137620038967093662, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137246075606804510, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137430618265151846, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137927298594084192, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137073370541655406, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137687968574135818, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137588208567970186, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  topStyles:
+  - {fileID: 137013323962429164, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137961884541939592, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137245202542996978, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  pantsStyles:
+  - {fileID: 137073578406998614, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137222005546742988, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  shoeStyles:
+  - {fileID: 137215924705454888, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  - {fileID: 137831606593902910, guid: 27b2d32b72a29934294d1feec2ad4342, type: 2}
+  playerPrefab: {fileID: 1824867693596558, guid: 27b2d32b72a29934294d1feec2ad4342,
+    type: 2}
+  Test: 0
+  prefabToSpawn: {fileID: 1491779587948578, guid: dea9ae98ce92b4942b45517612ec451a,
+    type: 2}
